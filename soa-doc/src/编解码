@@ -3,7 +3,7 @@ tcp 为什么会出现粘包 拆包的问题？
 2.就是在包尾增加回车或空格等特殊字符作为切割，典型的FTP协议
 3.将消息分为消息头消息体。例如 dubbo
 
-
+ 
 ----------1------consumer请求编码----------------------
 -->NettyCodecAdapter.InternalEncoder.encode
   -->DubboCountCodec.encode
